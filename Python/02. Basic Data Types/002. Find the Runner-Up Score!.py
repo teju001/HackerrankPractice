@@ -4,4 +4,6 @@
 
 n = int(input())
 arr = list(map(int, input().split()))
-print(max([x for x in arr if x != max(arr)]))
+  arr = Counter(map(int, raw_input().split())).keys()
+    arr.sort()
+    print arr[-2]
